@@ -8,6 +8,7 @@
     tools:context="com.example.internet.myapplication.TelaInicial"
     tools:showIn="@layout/activity_tela_inicial">
 
+<<<<<<< HEAD
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,4 +72,6 @@
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="86dp" />
 
+=======
+>>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
 </android.support.constraint.ConstraintLayout>

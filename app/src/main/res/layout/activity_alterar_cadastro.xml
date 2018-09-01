@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -26,3 +27,90 @@
     <include layout="@layout/content_alterar_cadastro" />
 
 </android.support.design.widget.CoordinatorLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edittxtNovaSenha4"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorTexto"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <EditText
+        android:id="@+id/edittxtNovaSenha2"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorTexto"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/txtviewCPF5"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="SENHA"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/txtviewCPF3"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="NOME"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/txtviewCPF4"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="CELULAR"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <EditText
+        android:id="@+id/edittxtNovaSenha3"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorTexto"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/tela_historico2"
+        android:layout_width="139dp"
+        android:layout_height="18dp"
+        android:text="ALTERAR CADASTRO"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRMAR"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="426dp" />
+</android.support.constraint.ConstraintLayout>
+>>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
