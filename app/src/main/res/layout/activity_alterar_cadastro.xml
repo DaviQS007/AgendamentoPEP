@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -27,7 +26,6 @@
     <include layout="@layout/content_alterar_cadastro" />
 
 </android.support.design.widget.CoordinatorLayout>
-=======
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -113,4 +111,3 @@
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="426dp" />
 </android.support.constraint.ConstraintLayout>
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3

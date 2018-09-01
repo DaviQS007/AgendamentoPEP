@@ -12,29 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp">
-<<<<<<< HEAD
-=======
-
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.AppBarLayout>
 
         <LinearLayout
-<<<<<<< HEAD
             android:layout_width="356dp"
             android:layout_height="300dp"
             android:orientation="vertical"
-
-=======
-            android:layout_width="355dp"
-            android:layout_height="300dp"
-            android:orientation="vertical"
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
-            tools:layout_editor_absoluteX="14dp"
-            tools:layout_editor_absoluteY="195dp">
-
-        </LinearLayout>
+</LinearLayout>
 
 
     </android.support.design.widget.AppBarLayout>
@@ -42,12 +28,7 @@
     <include
         layout="@layout/content_main"
         android:layout_height="488dp"
-<<<<<<< HEAD
         tools:layout_editor_absoluteY="79dp" />
-=======
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
 
     <Button
         android:id="@+id/button2"
@@ -69,8 +50,6 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="131dp" />
 
-<<<<<<< HEAD
-=======
     <TextView
         android:id="@+id/txtviewCPF2"
         android:layout_width="336dp"
@@ -80,7 +59,6 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="131dp" />
 
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
     <EditText
         android:id="@+id/edittxtCPF"
         android:layout_width="336dp"
@@ -134,20 +112,11 @@
 
     <TextView
         android:id="@+id/txtviewEsqueciMinhaSenha"
-<<<<<<< HEAD
         android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:text="ESQUECI MINHA SENHA"
         android:textColor="@color/colorTexto"
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="28dp" />
-=======
-        android:layout_width="336dp"
-        android:layout_height="wrap_content"
-        android:text="ESQUECI MINHA SENHA"
-        android:textColor="@color/colorTexto"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="30dp" />
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
 
 </android.support.constraint.ConstraintLayout>

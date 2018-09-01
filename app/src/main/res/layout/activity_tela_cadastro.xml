@@ -25,8 +25,6 @@
 
     <include layout="@layout/content_tela_cadastro" />
 
-<<<<<<< HEAD
-=======
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -35,5 +33,4 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
 </android.support.design.widget.CoordinatorLayout>
