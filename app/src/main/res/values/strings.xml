@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_cadastro">TelaCadastro</string>
+    <string name="title_activity_esqueci_minha_senha">EsqueciMinhaSenha</string>
+    <string name="title_activity_tela_carregamento">TelaCarregamento</string>
+    <string name="title_activity_tela_login">TelaLogin</string>
+    <string name="title_activity_marcar_consulta">MarcarConsulta</string>
+    <string name="title_activity_historico">Historico</string>
+    <string name="title_activity_tela_notificacoes">TelaNotificacoes</string>
+    <string name="title_activity_alterar_cadastro">AlterarCadastro</string>
+</resources>

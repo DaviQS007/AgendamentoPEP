@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.internet.myapplication.TelaInicial"
+    tools:showIn="@layout/activity_tela_inicial">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="356dp"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="195dp">
+
+        </LinearLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        layout="@layout/content_main"
+        android:layout_height="488dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="144dp"
+        android:layout_height="42dp"
+        android:background="@color/colorButton"
+        android:text="FAZER LOGIN"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="173dp"
+        android:layout_height="22dp"
+        android:text="AGENDAMENTO UNINOVE"
+        android:textColor="@color/colorTexto"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:background="@color/colorButton"
+        android:text="PRIMEIRO ACESSO"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTexto"
+        android:text="(COLOCAREMOS O LOGO DA FÁBRICA E DO APP AQUI)"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+</android.support.constraint.ConstraintLayout>
