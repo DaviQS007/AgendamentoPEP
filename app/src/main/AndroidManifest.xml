@@ -23,7 +23,6 @@
         <activity
             android:name=".EsqueciMinhaSenha"
             android:label="@string/title_activity_esqueci_minha_senha"
-<<<<<<< HEAD
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TelaCarregamento"
@@ -48,10 +47,7 @@
         <activity
             android:name=".AlterarCadastro"
             android:label="@string/title_activity_alterar_cadastro"
-            android:theme="@style/AppTheme"></activity>
-=======
-            android:theme="@style/AppTheme.NoActionBar"></activity>
->>>>>>> e21f73c14b596f35a5d185ba323be920150fc5a3
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
