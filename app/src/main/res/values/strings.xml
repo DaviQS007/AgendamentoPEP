@@ -9,4 +9,5 @@
     <string name="title_activity_historico">Historico</string>
     <string name="title_activity_tela_notificacoes">TelaNotificacoes</string>
     <string name="title_activity_alterar_cadastro">AlterarCadastro</string>
+    <string name="title_activity_tela_inicial">TelaInicial</string>
 </resources>
