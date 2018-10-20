@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.internet.myapplication.AlterarCadastro"
-    tools:showIn="@layout/activity_alterar_cadastro">
+    tools:showIn="@layout/activity_alterar_cadastro"
+    android:background="@color/colorPrimary">
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/textInputLayout"
@@ -54,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textInputLayout"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.078" />
 
     <TextView
         android:id="@+id/txtviewNome"
@@ -163,9 +164,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@color/colorButton"
+        android:background="@drawable/botao_oval"
         android:text="ALTERAR"
-        android:textColor="@color/colorTexto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
