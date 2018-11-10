@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/degrade_azul"
     tools:context="com.example.internet.myapplication.TelaNotificacoes">
 
 
@@ -49,6 +49,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/botao_oval"
         android:text="voltar"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -66,6 +67,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/botao_oval"
         android:text="LIMPAR"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

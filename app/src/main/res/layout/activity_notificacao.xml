@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/degrade_azul"
     android:layout_height="match_parent">
 
     <TextView
@@ -22,6 +22,7 @@
         android:layout_height="35dp"
         android:background="@drawable/botao_oval"
         android:text="LIMPAR"
+        android:textColor="@color/colorPrimaryDark"
         tools:layout_editor_absoluteX="121dp"
         tools:layout_editor_absoluteY="477dp" />
 </android.support.constraint.ConstraintLayout>
