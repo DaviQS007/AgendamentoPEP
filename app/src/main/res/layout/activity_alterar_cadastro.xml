@@ -162,7 +162,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/botao_oval"
         android:text="ALTERAR"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@drawable/cor_texto_botao"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

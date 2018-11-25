@@ -19,8 +19,8 @@
     <include
         layout="@layout/content_main"
         android:layout_height="488dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -30,7 +30,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="AGENDAMENTO UNINOVE"
+        android:text="LOGIN CONCLUÍDO"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@color/colorTexto"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -22,7 +22,7 @@
         android:layout_height="35dp"
         android:background="@drawable/botao_oval"
         android:text="LIMPAR"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@drawable/cor_texto_botao"
         tools:layout_editor_absoluteX="121dp"
         tools:layout_editor_absoluteY="477dp" />
 </android.support.constraint.ConstraintLayout>
