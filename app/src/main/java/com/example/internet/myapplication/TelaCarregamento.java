@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.EditText;
 
 public class TelaCarregamento extends AppCompatActivity {
 
@@ -15,6 +16,9 @@ public class TelaCarregamento extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_carregamento);
+
+        final EditText etMenuNome = (EditText) findViewById(R.id.etMenuNome);
+        final EditText etMenuCPF = (EditText) findViewById(R.id.etMenuCPF);
     }
 
 }

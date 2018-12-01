@@ -23,7 +23,7 @@
         tools:layout_editor_absoluteY="79dp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textViewHistorico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -31,8 +31,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="HISTÓRICO"
-        android:textColor="@color/colorTexto"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorTexto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -41,7 +41,7 @@
         app:layout_constraintVertical_bias="0.128" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/buttonVoltar"
         android:layout_width="100dp"
         android:layout_height="43dp"
         android:layout_marginBottom="8dp"
@@ -49,7 +49,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/botao_oval"
-        android:text="voltar"
+        android:text="VOLTAR"
         android:textColor="@drawable/cor_texto_botao"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/buttonLimpar"
         android:layout_width="104dp"
         android:layout_height="38dp"
         android:layout_marginBottom="8dp"

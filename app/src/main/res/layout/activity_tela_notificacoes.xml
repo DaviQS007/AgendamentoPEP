@@ -23,7 +23,7 @@
         tools:layout_editor_absoluteY="79dp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textViewNotiicacoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -31,8 +31,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="NOTIFICAÇÕES"
-        android:textColor="@color/colorTexto"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorTexto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.192" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/buttonVoltar"
         android:layout_width="106dp"
         android:layout_height="40dp"
         android:layout_marginBottom="8dp"
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.019" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/buttonLimpar"
         android:layout_width="114dp"
         android:layout_height="46dp"
         android:layout_marginBottom="8dp"
